@@ -1,0 +1,93 @@
+C:\Users\JAYAK\AppData\Local\conda\conda\envs\nlp-hw3\python.exe H:/NLP/assignment4/train_basic.py
+
+Reading Train Instances
+100%|██████████| 7196/7196 [01:21<00:00, 88.55it/s]
+  0%|          | 0/804 [00:00<?, ?it/s]
+Reading Val Instances
+100%|██████████| 804/804 [00:08<00:00, 90.84it/s]
+
+Building Vocabulary.
+2019-12-15 23:29:06.285873: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+0it [00:00, ?it/s]
+Reading pretrained embedding file.
+400000it [00:01, 269514.77it/s]
+
+Generating train batches
+100%|██████████| 720/720 [00:00<00:00, 6433.32it/s]
+  0%|          | 0/81 [00:00<?, ?it/s]
+Generating val batches
+100%|██████████| 81/81 [00:00<00:00, 10108.86it/s]
+  0%|          | 0/720 [00:00<?, ?it/s]
+Epoch0
+100%|██████████| 720/720 [03:09<00:00,  3.79it/s]
+  0%|          | 0/81 [00:00<?, ?it/s]Train loss for epoch: 1.9758061170578003
+ 99%|█████████▉| 80/81 [00:08<00:00,  9.34it/s]Val loss for epoch: 1.9967
+Val F1 score: 0.3175
+
+Epoch1
+100%|██████████| 81/81 [00:08<00:00,  9.81it/s]
+100%|██████████| 720/720 [03:04<00:00,  3.90it/s]
+Train loss for epoch: 1.3197747468948364
+100%|██████████| 81/81 [00:08<00:00,  9.57it/s]
+Val loss for epoch: 1.7151
+Val F1 score: 0.4247
+
+Epoch2
+100%|█████████▉| 719/720 [03:04<00:00,  4.46it/s]Train loss for epoch: 0.9474454522132874
+100%|██████████| 720/720 [03:04<00:00,  3.89it/s]
+ 99%|█████████▉| 80/81 [00:08<00:00,  9.35it/s]Val loss for epoch: 1.6123
+Val F1 score: 0.4726
+
+Epoch3
+100%|██████████| 81/81 [00:08<00:00,  9.85it/s]
+100%|██████████| 720/720 [03:03<00:00,  3.92it/s]
+  0%|          | 0/81 [00:00<?, ?it/s]Train loss for epoch: 0.6243222951889038
+100%|██████████| 81/81 [00:08<00:00,  9.82it/s]
+Val loss for epoch: 1.6799
+Val F1 score: 0.5306
+
+Epoch4
+100%|██████████| 720/720 [03:03<00:00,  3.92it/s]
+  0%|          | 0/81 [00:00<?, ?it/s]Train loss for epoch: 0.3991719186306
+100%|██████████| 81/81 [00:08<00:00,  9.78it/s]
+  0%|          | 0/720 [00:00<?, ?it/s]Val loss for epoch: 1.7484
+Val F1 score: 0.5244
+
+Epoch5
+100%|██████████| 720/720 [03:10<00:00,  3.77it/s]
+Train loss for epoch: 0.23513804376125336
+100%|██████████| 81/81 [00:08<00:00,  9.49it/s]
+  0%|          | 0/720 [00:00<?, ?it/s]Val loss for epoch: 1.9024
+Val F1 score: 0.4969
+
+Epoch6
+100%|██████████| 720/720 [03:13<00:00,  3.71it/s]
+  0%|          | 0/81 [00:00<?, ?it/s]Train loss for epoch: 0.13620829582214355
+100%|██████████| 81/81 [00:09<00:00,  8.87it/s]
+Val loss for epoch: 1.9755
+Val F1 score: 0.5146
+
+Epoch7
+100%|██████████| 720/720 [03:27<00:00,  3.47it/s]
+  0%|          | 0/81 [00:00<?, ?it/s]Train loss for epoch: 0.07816838473081589
+ 99%|█████████▉| 80/81 [00:08<00:00,  7.62it/s]Val loss for epoch: 2.1196
+Val F1 score: 0.5164
+
+Epoch8
+100%|██████████| 81/81 [00:08<00:00,  9.09it/s]
+100%|██████████| 720/720 [03:09<00:00,  3.79it/s]
+  0%|          | 0/81 [00:00<?, ?it/s]Train loss for epoch: 0.053498733788728714
+100%|██████████| 81/81 [00:08<00:00,  9.70it/s]
+  0%|          | 0/720 [00:00<?, ?it/s]Val loss for epoch: 2.3489
+Val F1 score: 0.5011
+
+Epoch9
+100%|██████████| 720/720 [03:13<00:00,  3.72it/s]
+  0%|          | 0/81 [00:00<?, ?it/s]Train loss for epoch: 0.05930854007601738
+ 99%|█████████▉| 80/81 [00:08<00:00,  9.40it/s]Val loss for epoch: 2.3929
+100%|██████████| 81/81 [00:08<00:00,  9.87it/s]
+Val F1 score: 0.5303
+
+Model stored in directory: serialization_dirs\basic
+
+Process finished with exit code 0

@@ -1,0 +1,64 @@
+C:\Users\JAYAK\AppData\Local\conda\conda\envs\nlp-hw3\python.exe H:/NLP/assignment4/train_basic.py
+
+Reading Train Instances
+100%|█████████▉| 7195/7196 [01:24<00:00, 87.34it/s]
+Reading Val Instances
+100%|██████████| 7196/7196 [01:24<00:00, 85.15it/s]
+100%|██████████| 804/804 [00:10<00:00, 78.56it/s]
+
+Building Vocabulary.
+2019-12-15 23:14:03.778537: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+
+0it [00:00, ?it/s]Reading pretrained embedding file.
+400000it [00:05, 69416.05it/s]
+
+Generating train batches
+  0%|          | 0/720 [00:00<?, ?it/s]
+Generating val batches
+100%|██████████| 720/720 [00:00<00:00, 12417.55it/s]
+100%|██████████| 81/81 [00:00<00:00, 13488.65it/s]
+  0%|          | 0/720 [00:00<?, ?it/s]
+Epoch0
+Val loss for epoch: 1.8607
+Val F1 score: 0.3557
+
+Epoch1
+Val loss for epoch: 1.6808
+Val F1 score: 0.4268
+
+Epoch2
+Val loss for epoch: 1.5858
+Val F1 score: 0.4985
+
+Epoch3
+
+Val loss for epoch: 1.6077
+Val F1 score: 0.553
+
+Epoch4
+Val loss for epoch: 1.7386
+Val F1 score: 0.5761
+
+Epoch5
+Val loss for epoch: 1.8471
+Val F1 score: 0.581
+
+Epoch6
+Val loss for epoch: 1.9601
+Val F1 score: 0.5842
+
+Epoch7
+Val loss for epoch: 2.0168
+Val F1 score: 0.5946
+
+Epoch8
+Val loss for epoch: 2.1147
+Val F1 score: 0.5623
+
+Epoch9
+Val loss for epoch: 2.1993
+Val F1 score: 0.5811
+
+Model stored in directory: serialization_dirs\basic
+
+Process finished with exit code 0
